@@ -8,7 +8,7 @@
     ((r7rs)
      (cl:eval-when (:compile-toplevel :load-toplevel :execute) 
        (cl:in-package "https://github.com/g000001/r7rs-compat")
-       (named-readtables:in-readtable :rnrs)))))
+       (named-readtables:in-readtable :r7rs)))))
 
 
 (define-syntax define-not-implemented
